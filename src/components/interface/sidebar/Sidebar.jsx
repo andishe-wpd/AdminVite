@@ -24,8 +24,8 @@ const Sidebar = () => {
           <DashboardIcon />
           <span>Dashboard</span>
         </li>
+        <p className="title">List</p>
         <li>
-          <p className="title">List</p>
           <PeopleAltOutlinedIcon />
           <span>Users</span>
         </li>
@@ -39,10 +39,10 @@ const Sidebar = () => {
         </li>
         <p className="title">Service</p>
         <li>
-          <p className="title">Data observe</p>
           <BarChartOutlinedIcon />
           <span>Stats</span>
         </li>
+        <p className="title">Data observe</p>
         <li>
           <NotificationsNoneOutlinedIcon />
           <span>Notification</span>
@@ -52,10 +52,10 @@ const Sidebar = () => {
           <span>System health</span>
         </li>
         <li>
-          <p className="title">User</p>
           <BiotechOutlinedIcon />
           <span>Log</span>
         </li>
+        <p className="title">User</p>
         <li>
           <SettingsOutlinedIcon />
           <span>Setting</span>
@@ -69,7 +69,11 @@ const Sidebar = () => {
           <span>Logout</span>
         </li>
       </ul>
-      <div className="buttom">color options</div>
+      <div className="bottom">
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
+        <div className="colorOption"></div>
+      </div>
     </div>
   );
 };
